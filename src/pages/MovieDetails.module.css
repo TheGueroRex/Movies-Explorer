@@ -1,0 +1,80 @@
+.detailsContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.col{
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+}
+
+.movieImage{
+    border-radius: 15px;
+}
+
+.movieDetails{
+    font-size: 1.5rem;
+}
+
+.firstItem{
+    margin-top: 0;
+}
+
+.datailsBack{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.datailsBack svg{
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.datailsBack svg:hover{
+    background-color: #1a1a1a;
+    scale: 1.2;
+}
+
+.subtitleSection{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.imagesContainer{ 
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.similarContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.translations{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.translations p {
+    text-transform: uppercase;
+}
+
+.noFoundText{
+    text-align: center;
+}
